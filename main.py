@@ -17,6 +17,7 @@ client = discord.Client(intents=intents)
 @client.event
 async def on_ready():
     print(f"ログイン完了：{client.user}")
+　　print(f"受信：{message.content} / from: {message.author.name}")
 
 @client.event
 async def on_message(message):
