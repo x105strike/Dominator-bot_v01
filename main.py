@@ -26,7 +26,7 @@ async def on_message(message):
         return
 
     if message.author.name == TARGET_USERNAME:
-        aaa = random.randint(0, 999)
+        aaa = random.randint(0, 350)
 
         alpha = f"変態係数{aaa}"
         if aaa < 100:
